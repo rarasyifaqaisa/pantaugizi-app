@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { -webkit-tap-highlight-color: transparent; }
+
+body {
+  background-color: #f9fafb;
+  /* Hindari content tertutup notch iPhone */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Smooth scroll di iOS */
+html { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "nasi-putih",
+    "name": "Nasi Putih",
+    "category": "karbohidrat",
+    "keywords": ["rice", "nasi", "white rice", "cooked rice"],
+    "calories": 130,
+    "protein": 2.7,
+    "carbs": 28.2,
+    "fat": 0.3,
+    "serving_suggestion_g": 200
+  },
+  {
+    "id": "nasi-goreng",
+    "name": "Nasi Goreng",
+    "category": "karbohidrat",
+    "keywords": ["fried rice", "nasi goreng", "rice", "goreng"],
+    "calories": 185,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 5.5,
+    "serving_suggestion_g": 250
+  },
+  {
+    "id": "ayam-goreng",
+    "name": "Ayam Goreng",
+    "category": "protein",
+    "keywords": ["fried chicken", "chicken", "ayam", "goreng"],
+    "calories": 260,
+    "protein": 27.0,
+    "carbs": 3.0,
+    "fat": 15.0,
+    "serving_suggestion_g": 100
+  },
+  {
+    "id": "rendang",
+    "name": "Rendang Sapi",
+    "category": "protein",
+    "keywords": ["rendang", "beef", "sapi", "daging", "padang"],
+    "calories": 195,
+    "protein": 19.0,
+    "carbs": 4.0,
+    "fat": 11.0,
+    "serving_suggestion_g": 100
+  },
+  {
+    "id": "gado-gado",
+    "name": "Gado-Gado",
+    "category": "sayuran",
+    "keywords": ["gado gado", "peanut sauce", "vegetables", "sayur"],
+    "calories": 165,
+    "protein": 8.0,
+    "carbs": 15.0,
+    "fat": 9.0,
+    "serving_suggestion_g": 300
+  },
+  {
+    "id": "soto-ayam",
+    "name": "Soto Ayam",
+    "category": "sup",
+    "keywords": ["soto", "soup", "chicken soup", "ayam"],
+    "calories": 120,
+    "protein": 12.0,
+    "carbs": 8.0,
+    "fat": 4.0,
+    "serving_suggestion_g": 400
+  },
+  {
+    "id": "tempe-goreng",
+    "name": "Tempe Goreng",
+    "category": "protein",
+    "keywords": ["tempe", "tempeh", "goreng", "fried"],
+    "calories": 200,
+    "protein": 14.0,
+    "carbs": 13.0,
+    "fat": 11.0,
+    "serving_suggestion_g": 100
+  },
+  {
+    "id": "tahu-goreng",
+    "name": "Tahu Goreng",
+    "category": "protein",
+    "keywords": ["tahu", "tofu", "goreng", "fried tofu"],
+    "calories": 130,
+    "protein": 10.0,
+    "carbs": 4.0,
+    "fat": 8.0,
+    "serving_suggestion_g": 100
+  },
+  {
+    "id": "mie-goreng",
+    "name": "Mie Goreng",
+    "category": "karbohidrat",
+    "keywords": ["mie goreng", "noodle", "fried noodle", "mi goreng"],
+    "calories": 210,
+    "protein": 6.0,
+    "carbs": 35.0,
+    "fat": 6.0,
+    "serving_suggestion_g": 250
+  },
+  {
+    "id": "sayur-bayam",
+    "name": "Sayur Bayam",
+    "category": "sayuran",
+    "keywords": ["bayam", "spinach", "sayur", "vegetables"],
+    "calories": 35,
+    "protein": 3.5,
+    "carbs": 4.0,
+    "fat": 0.5,
+    "serving_suggestion_g": 150
+  }
+  ,{
+    "id": "sate-ayam",
+    "name": "Sate Ayam",
+    "category": "protein",
+    "keywords": ["satay", "sate", "chicken", "skewer", "grilled", "ayam"],
+    "calories": 170,
+    "protein": 18.0,
+    "carbs": 6.0,
+    "fat": 8.0,
+    "serving_suggestion_g": 150
+  },
+  {
+    "id": "bakso",
+    "name": "Bakso",
+    "category": "protein",
+    "keywords": ["bakso", "meatball", "soup", "beef", "noodle"],
+    "calories": 110,
+    "protein": 8.0,
+    "carbs": 10.0,
+    "fat": 4.0,
+    "serving_suggestion_g": 350
+  },
+  {
+    "id": "gudeg",
+    "name": "Gudeg",
+    "category": "sayuran",
+    "keywords": ["gudeg", "jackfruit", "nangka", "yogyakarta", "java"],
+    "calories": 180,
+    "protein": 5.0,
+    "carbs": 22.0,
+    "fat": 8.0,
+    "serving_suggestion_g": 200
+  },
+  {
+    "id": "pecel-lele",
+    "name": "Pecel Lele",
+    "category": "protein",
+    "keywords": ["lele", "catfish", "fried fish", "pecel", "fish"],
+    "calories": 200,
+    "protein": 20.0,
+    "carbs": 8.0,
+    "fat": 10.0,
+    "serving_suggestion_g": 150
+  },
+  {
+    "id": "cap-cay",
+    "name": "Cap Cay",
+    "category": "sayuran",
+    "keywords": ["capcay", "cap cay", "stir fry", "vegetables", "sayur"],
+    "calories": 95,
+    "protein": 5.0,
+    "carbs": 10.0,
+    "fat": 4.0,
+    "serving_suggestion_g": 200
+  },
+  {
+    "id": "opor-ayam",
+    "name": "Opor Ayam",
+    "category": "protein",
+    "keywords": ["opor", "chicken", "coconut milk", "ayam", "curry"],
+    "calories": 220,
+    "protein": 18.0,
+    "carbs": 5.0,
+    "fat": 14.0,
+    "serving_suggestion_g": 200
+  },
+  {
+    "id": "pisang-goreng",
+    "name": "Pisang Goreng",
+    "category": "snack",
+    "keywords": ["pisang goreng", "fried banana", "banana", "pisang", "snack"],
+    "calories": 150,
+    "protein": 1.5,
+    "carbs": 25.0,
+    "fat": 5.0,
+    "serving_suggestion_g": 100
+  },
+  {
+    "id": "martabak",
+    "name": "Martabak Telur",
+    "category": "snack",
+    "keywords": ["martabak", "pancake", "egg", "telur", "stuffed"],
+    "calories": 280,
+    "protein": 12.0,
+    "carbs": 28.0,
+    "fat": 14.0,
+    "serving_suggestion_g": 150
+  },
+  {
+    "id": "es-teh",
+    "name": "Es Teh Manis",
+    "category": "minuman",
+    "keywords": ["tea", "teh", "iced tea", "sweet tea", "drink"],
+    "calories": 90,
+    "protein": 0.0,
+    "carbs": 23.0,
+    "fat": 0.0,
+    "serving_suggestion_g": 250
+  }
+]
