@@ -8,22 +8,26 @@ load_dotenv()
 from app.database import Base, engine
 from app.api import auth, foods, logs, ai
 
-Base.metadata.create_all(bind=engine)
-
 app = FastAPI(title="PantauGizi API", version="0.1.0")
+
+if os.getenv("DATABASE_URL"):
+    try:
+        Base.metadata.create_all(bind=engine)
+    except Exception as e:
+        print(f"DB init warning: {e}")
 
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     os.getenv("FRONTEND_URL", ""),
-    "https://pantaugizi-app.vercel.app",  
-    "https://*.vercel.app",               
+    "https://pantaugizi-app.vercel.app",
+    "https://*.vercel.app",
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      
-    allow_credentials=False,  
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
