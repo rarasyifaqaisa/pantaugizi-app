@@ -15,7 +15,9 @@ app = FastAPI(title="PantauGizi API", version="0.1.0")
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    os.getenv("FRONTEND_URL", "http://192.168.1.10:5173"),
+    os.getenv("FRONTEND_URL", ""),
+    "https://pantaugizi-app.vercel.app",  
+    "https://*.vercel.app",               
 ]
 
 app.add_middleware(
