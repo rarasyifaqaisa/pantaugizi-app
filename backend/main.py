@@ -5,16 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from app.database import Base, engine
 from app.api import auth, foods, logs, ai
 
 app = FastAPI(title="PantauGizi API", version="0.1.0")
-
-if os.getenv("DATABASE_URL"):
-    try:
-        Base.metadata.create_all(bind=engine)
-    except Exception as e:
-        print(f"DB init warning: {e}")
 
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
@@ -39,4 +32,4 @@ app.include_router(ai.router)
 
 @app.get("/")
 def root():
-    return {"message": "PantauGizi API 🥗", "docs": "/docs"}
+    return {"message": "PantauGizi API 🥗"}
